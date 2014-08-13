@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_top" >
+
+        <TextView
+            android:id="@id/food_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/main_color"
+            android:textSize="@dimen/menu_food_name_text_size" />
+
+        <TextView
+            android:id="@id/old_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:textColor="@color/grid_item_food_price_color"
+            android:textSize="@dimen/menu_food_price_text_size" />
+    </RelativeLayout>
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@id/img"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:background="@drawable/img_loading"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@id/restaurant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_white_bottom"
+        android:paddingLeft="5dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:typeface="sans" />
+
+</LinearLayout>

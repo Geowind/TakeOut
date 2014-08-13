@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/feedback_tips"
+        android:textColor="@color/main_color"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/shap_edt_bg"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/feedback_header_edt"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="@null"
+            android:gravity="left|top"
+            android:hint="@string/feedback_hint"
+            android:padding="5dp"
+            android:scrollbars="vertical"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/feedback_header_commit"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:layout_gravity="bottom|right"
+            android:layout_marginBottom="3dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/selector_order_item_btn_bg"
+            android:text="@string/feedback_submit"
+            android:textColor="@color/main_color"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

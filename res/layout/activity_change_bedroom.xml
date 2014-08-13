@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="10dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tips_change_bedroom"
+        android:textColor="@color/actionbar_title_color"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/change_bedroom_edt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_box_bg"
+        android:hint="@string/hint_bedroom"
+        android:inputType="number"
+        android:maxLength="3"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:singleLine="true"
+        android:textColor="@color/main_color"
+        android:textScaleX="1"
+        android:textSize="@dimen/rigister_edt_hint_text_size" />
+
+    <Button
+        android:id="@+id/ok_btn"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/selector_login_btn"
+        android:text="@string/ok"
+        android:textColor="@color/main_color"
+        android:textSize="18sp" />
+
+</LinearLayout>

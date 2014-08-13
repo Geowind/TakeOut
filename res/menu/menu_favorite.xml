@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_cancel_favorite"
+        android:title="@string/menu_cancel_favorite"/>
+    <item
+        android:id="@+id/menu_cancel_all_favorite"
+        android:title="@string/menu_cancel_all_favorite"/>
+
+</menu>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="viewpager" type="id"/>
+    <item name="gridview" type="id"/>
+    <item name="listview" type="id"/>
+    <item name="scrollview" type="id"/>
+    <item name="drawerlayout" type="id"/>
+    <item name="relativelayout" type="id"/>
+    <item name="indicator" type="id"/>
+    <item name="empty" type="id"/>
+
+    <!-- Food Item Ids -->
+    <item name="img" type="id"/>
+    <item name="food_name" type="id"/>
+    <item name="food_specialty" type="id"/>
+    <item name="old_price" type="id"/>
+    <item name="price" type="id"/>
+    <item name="favorites" type="id"/>
+    <item name="description" type="id"/>
+    <item name="restaurant" type="id"/>
+    <item name="specialty " type="id"/>
+    <item name="hot" type="id"/>
+
+    <!-- Order Text -->
+    <item name="order_total_price" type="id"></item>
+    <item name="order_address" type="id"></item>
+    <item name="order_others" type="id"></item>
+    <item name="order_more_rice" type="id"></item>
+    <item name="order_less_pepper" type="id"></item>
+    <item name="order_no_change" type="id"></item>
+    <item name="order_commit" type="id"></item>
+
+</resources>

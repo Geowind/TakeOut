@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@id/food_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_top"
+        android:paddingLeft="8dp"
+        android:textColor="@color/main_color"
+        android:textSize="@dimen/menu_food_name_text_size"
+        android:typeface="sans" />
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@id/img"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/img_loading"
+        android:scaleType="centerCrop" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_white_bottom" >
+
+        <TextView
+            android:id="@id/hot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/grey_text_color"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/folyd"
+            android:textSize="@dimen/menu_food_price_text_size" />
+    </RelativeLayout>
+
+</LinearLayout>

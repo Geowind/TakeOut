@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/food_order_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ricebowl"
+        android:gravity="center_horizontal"
+        android:paddingTop="30dp"
+        android:textColor="@color/actionbar_title_color"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:text="@string/come_to_bowl"
+        android:textColor="@color/main_color"
+        android:textScaleX="1.2" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/shape_dashed_line_main_color"
+        android:layerType="software" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="8dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="3dp"
+            android:background="@color/folyd" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/total_price" />
+
+        <TextView
+            android:id="@id/order_total_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7￥"
+            android:textColor="@color/folyd"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="8dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="3dp"
+            android:background="@color/main_color" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/order_adress" />
+
+        <TextView
+            android:id="@id/order_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="弘辰6-226"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="8dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="3dp"
+                android:background="@color/google_play" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/remarks" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/shap_edt_bg"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@id/order_others"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@null"
+                android:focusable="true"
+                android:gravity="left|top"
+                android:hint="@string/hint_for_remarks"
+                android:padding="5dp"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginRight="2.5dp"
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/order_more_rice"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/whilte_grey_background"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="@string/others_more_rice"
+                    android:textColor="@color/grey_text_color" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparent" />
+
+                <TextView
+                    android:id="@+id/order_less_pepper"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/background_color"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="@string/others_less_pepper"
+                    android:textColor="@color/grey_text_color" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparent" />
+
+                <TextView
+                    android:id="@id/order_no_change"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/background_color"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="@string/others_no_change"
+                    android:textColor="@color/grey_text_color" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@id/order_commit"
+        android:layout_width="210dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:background="@drawable/selector_stack_bg"
+        android:text="@string/commit_order"
+        android:textColor="@color/actionbar_title_color" />
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Restaurant -->
+    <dimen name="regular_restaruant_name_text_size">20sp</dimen>
+    <dimen name="restaurant_details_text_size">12sp</dimen>
+
+    <!-- Food Detail -->
+    <dimen name="food_detail_copyright_text">12sp</dimen>
+    <dimen name="food_detail_action_text">15sp</dimen>
+    <dimen name="food_detail_action_padding">8dp</dimen>
+    <dimen name="food_detail_action_text_margin_img">3dp</dimen>
+    <dimen name="food_detail_action_img_size">22dp</dimen>
+    <dimen name="food_detail_2item_height">65dp</dimen>
+    <dimen name="food_detail_2icon_height">35dp</dimen>
+    <dimen name="food_detail_2icon_width">35dp</dimen>
+
+    <!-- Menu -->
+    <dimen name="menu_food_name_text_size">14sp</dimen>
+    <dimen name="menu_food_price_text_size">14sp</dimen>
+    <dimen name="menu_restaurant_name_text_size">14sp</dimen>
+
+    <!-- Drawer -->
+
+
+    <!-- About -->
+    <dimen name="about_item_text_size">16sp</dimen>
+
+    <!-- Rigistration -->
+    <dimen name="rigister_edt_height">45dp</dimen>
+    <dimen name="rigister_edt_hint_text_size">16sp</dimen>
+
+    <!-- Profile -->
+    <dimen name="profile_item_icon_size">18sp</dimen>
+    <dimen name="profile_4item_text_size">15sp</dimen>
+    <dimen name="profile_item_margin_side">20dp</dimen>
+
+</resources>

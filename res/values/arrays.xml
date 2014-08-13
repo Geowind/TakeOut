@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="gender_array">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+    <string-array name="order_by_array">
+        <item>按价格排序</item>
+        <item>按人气排序</item>
+    </string-array>
+    <string-array name="school_locale">
+        <item>弘辰</item>
+        <item>北校</item>
+        <item>南校</item>
+    </string-array>
+    <string-array name="order_by_value_array">
+        <item>order_by_price</item>
+        <item>order_by_hot</item>
+    </string-array>
+
+</resources>

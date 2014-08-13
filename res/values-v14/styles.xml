@@ -1,0 +1,65 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style>
+
+    <style name="ActionBarTheme" parent="@style/Theme.AppCompat.Light">
+        <item name="android:actionBarItemBackground">@drawable/selector_action_button_background</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:actionBarTabStyle">@style/actionBarTabStyle</item>
+        <item name="android:actionMenuTextColor">@color/actionbar_title_color</item>
+        <item name="android:actionMenuTextAppearance">@style/actionMenuTextAppearance</item>
+        <item name="android:actionModeBackground">@drawable/ab_solid_stacked</item>
+        <item name="android:actionBarTabTextStyle">@style/actionBarTabTextStyle</item>
+        <item name="vpiTabPageIndicatorStyle">@style/CustomTabPageIndicator</item>
+        <item name="vpiUnderlinePageIndicatorStyle">@style/CustomUnderlinePageIndicator</item>
+        <!-- <item name="android:actionBarTabBarStyle">@style/actionBarTabBarStyle</item> -->
+    </style>
+
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:titleTextStyle">@style/TitleTextStyle</item>
+        <item name="android:subtitleTextStyle">@style/SubtitleTextStyle</item>
+        <item name="android:background">@drawable/img_actionbar_background</item>
+        <item name="android:backgroundStacked">@drawable/ab_solid_stacked</item>
+    </style>
+
+    <style name="actionButtonStyle" parent="@style/Widget.AppCompat.ActionButton">
+        <item name="android:actionMenuTextColor">@color/actionbar_title_color</item>
+        <item name="android:actionMenuTextAppearance">@style/actionMenuTextAppearance</item>
+        <item name="android:itemBackground">@drawable/selector_action_button_background</item>
+        <item name="android:selectableItemBackground">@drawable/selector_action_button_background</item>
+    </style>
+
+    <style name="actionOverflowButtonStyle" parent="@style/Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:itemBackground">@drawable/selector_action_button_background</item>
+    </style>
+
+    <style name="CustomTabPageIndicator" parent="Widget.TabPageIndicator">
+
+        <!-- <item name="android:background">@drawable/custom_tab_indicator</item> -->
+        <item name="android:textColor">@color/main_color</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:divider">@drawable/custom_tab_indicator_divider</item>
+        <item name="android:dividerPadding">10dp</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:fadingEdgeLength">8dp</item>
+    </style>
+
+    <style name="CustomUnderlinePageIndicator">
+        <item name="selectedColor">#FFCC0000</item>
+        <item name="android:background">#FFCCCCCC</item>
+        <item name="fadeLength">1000</item>
+        <item name="fadeDelay">1000</item>
+    </style>
+
+</resources>

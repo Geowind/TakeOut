@@ -1,0 +1,111 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!--  -->
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="ActionBarTheme" parent="@style/Theme.AppCompat.Light">
+        <item name="actionBarItemBackground">@drawable/selector_action_button_background</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <item name="actionBarTabStyle">@style/actionBarTabStyle</item>
+        <item name="actionMenuTextColor">@color/actionbar_title_color</item>
+        <item name="actionMenuTextAppearance">@style/actionMenuTextAppearance</item>
+        <item name="actionModeBackground">@drawable/ab_solid_stacked</item>
+        <item name="actionBarTabTextStyle">@style/actionBarTabTextStyle</item>
+        <item name="vpiTabPageIndicatorStyle">@style/CustomTabPageIndicator</item>
+        <!-- <item name="actionBarTabBarStyle">@style/actionBarTabBarStyle</item> -->
+    </style>
+
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="titleTextStyle">@style/TitleTextStyle</item>
+        <item name="subtitleTextStyle">@style/SubtitleTextStyle</item>
+        <item name="background">@drawable/img_actionbar_background</item>
+        <item name="backgroundStacked">@drawable/ab_solid_stacked</item>
+        <!-- <item name="actionButtonStyle">@style/actionButtonStyle</item> -->
+    </style>
+
+    <style name="actionButtonStyle" parent="@style/Widget.AppCompat.ActionButton">
+
+        <!-- <item name="actionBarItemBackground">@color/main_color</item> -->
+        <item name="actionMenuTextColor">@color/actionbar_title_color</item>
+        <item name="actionMenuTextAppearance">@style/actionMenuTextAppearance</item>
+        <item name="android:itemBackground">@drawable/selector_action_button_background</item>
+        <item name="selectableItemBackground">@drawable/selector_action_button_background</item>
+    </style>
+
+    <style name="actionMenuTextAppearance" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Menu">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/actionbar_title_color</item>
+    </style>
+
+    <style name="SubtitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
+        <item name="android:textColor">@color/actionbar_title_color</item>
+    </style>
+
+    <style name="actionBarTabStyle" parent="@style/Widget.AppCompat.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_example</item>
+    </style>
+
+    <style name="actionBarTabBarStyle" parent="@style/Widget.AppCompat.ActionBar.TabBar">
+        <item name="android:background">@color/actionbar_title_color</item>
+    </style>
+
+    <style name="actionBarTabTextStyle" parent="Widget.AppCompat.ActionBar.TabText">
+        <item name="android:textColor">@color/actionbar_title_color</item>
+    </style>
+
+    <style name="actionOverflowButtonStyle" parent="@style/Widget.AppCompat.ActionButton.Overflow">
+        <!-- <item name="itemBackground">@drawable/selector_action_button_background</item> -->
+    </style>
+
+    <!-- ViewPagerIndicator Style -->
+    <style name="CustomTabPageIndicator" parent="Widget.TabPageIndicator">
+
+        <!-- <item name="android:background">@drawable/custom_tab_indicator</item> -->
+        <item name="android:textColor">@color/main_color</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:divider">@drawable/custom_tab_indicator_divider</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:fadingEdgeLength">8dp</item>
+    </style>
+
+    <style name="LoadingDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="PopupWindowAnimationStyle">
+        <item name="android:windowEnterAnimation">@anim/in_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/out_to_bottom</item>
+    </style>
+    
+    <style name="PopupMenuStyle" parent="@style/Widget.AppCompat.PopupMenu">
+        
+    </style>
+
+</resources>

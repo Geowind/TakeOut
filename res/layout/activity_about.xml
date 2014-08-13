@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/about_center"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="12dp"
+        android:drawablePadding="10dp"
+        android:drawableTop="@drawable/icon"
+        android:text="@string/about"
+        android:textColor="@color/main_color"
+        android:textSize="16sp"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:id="@id/about_center"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/app_version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="3dp"
+            android:textSize="@dimen/about_item_text_size" />
+
+        <TextView
+            android:id="@+id/app_face"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="3dp"            android:text="@string/app_face"
+            android:textSize="@dimen/about_item_text_size" />
+
+        <TextView
+            android:id="@+id/about_app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="3dp"
+            android:text="@string/about_app"
+            android:textSize="@dimen/about_item_text_size" />
+
+        <TextView
+            android:id="@+id/about_team"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="3dp"
+            android:text="@string/about_team"
+            android:textSize="@dimen/about_item_text_size" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/app_copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:text="@string/about_app_copyright" />
+
+</RelativeLayout>

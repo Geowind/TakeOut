@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="main_color">#DD4814</color>
+    <color name="deep_main_color">#CE4814</color>
+    <color name="light_main_color">#FE3703</color>
+    <color name="main_color_with_transparent15">#E26337</color>
+    <color name="whilte_main_color">#F5F5F5</color>
+    <color name="main_grey">#DDDDDD</color>
+    <color name="transparent_15">#F1F4FC</color>
+    <color name="transparent_30">#F3F6FC</color>
+    <color name="grey_text_color">#999999</color>
+    <color name="background_color">#ECECEC</color>
+    <color name="restaurant_list_item_name">#337FDA</color>
+    <color name="restaurant_list_item_details">#DD4814</color>
+    <color name="restaurant_business_time_color">#1B9A52</color>
+    <color name="restaurant_address_color">#E7881B</color>
+    <color name="whilte_background">#DDDDDD</color>
+    <color name="whilte_grey_background">#E8E8E8</color>
+    <color name="line_color">#CCCCCC</color>
+    <color name="grid_item_food_name_color">#DD4814</color>
+    <color name="grid_item_food_price_color">#3A6FE1</color>
+    <color name="grid_item_restaurant_name_background">#95CA5B</color>
+
+    <!-- ActionBar Color -->
+    <color name="actionBar_background_stacked">#D06F26</color>
+    <color name="actionbar_title_color">#FAFBF5</color>
+    <color name="actionbar_background_stacked">#F3822B</color>
+
+    <!-- Others -->
+    <color name="transparent">#00000000</color>
+    <color name="ubuntu">#DD4814</color>
+    <color name="folyd">#337FDA</color>
+    <color name="google_play">#96AA39</color>
+    <color name="yahoo">#500095</color>
+
+</resources>

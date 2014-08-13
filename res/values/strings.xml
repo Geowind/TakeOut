@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">外卖小助手</string>
+    <string name="app_declare">精彩你的外卖生活</string>
+    <string name="share_app">小伙伴，外卖小助手很不错哦</string>
+
+    <!-- ActionBar Text -->
+    <string name="action_overflow">菜单</string>
+    <string name="action_settings">设置</string>
+    <string name="action_feedback">反馈</string>
+    <string name="action_about">关于</string>
+    <string name="action_cooperation">招商合作</string>
+    <string name="action_detail">详情</string>
+    <string name="actionbar_title_takeout">外卖店列表</string>
+    <string name="actionbar_title_search">搜索</string>
+    <string name="action_order">订单中心</string>
+    <string name="actionbar_title_favorite">我的收藏</string>
+    <string name="actionbar_title_profile">我的资料</string>
+    <string name="action_menu_search_view_hint">搜索一下你想吃的吧</string>
+
+    <!-- Restaurant Text -->
+    <string name="shake_food">摇一摇</string>
+    <string name="today_recommend">今日推荐</string>
+    <string name="title_restaurant_list">外卖店列表</string>
+    <string name="food_detail_detail">详情</string>
+    <string name="special">推荐</string>
+    <string name="special_food">☆本店特色☆</string>
+    <string name="goto_restaurant">去店铺</string>
+    <string name="view_comments">看评论</string>
+    <string name="food_detail_img_reference">图片仅供参考，请以实物为准</string>
+    <string name="food_detail_copyright">最终解释权归 %1$s 所有</string>
+    <string name="food_detail_favorites_text">人收藏</string>
+    <string name="restaurant_call">电话：</string>
+    <string name="restaurant_business_time">营业时间：</string>
+    <string name="restaurant_others">其他：</string>
+    <string name="restaurant_address">地址：</string>
+    <string name="pager_no_data">暂时没有数据</string>
+    <string name="order_requires">这里可以填写额外的要求。比如：多加点饭、少放辣椒</string>
+
+    <!-- Preference Text -->
+
+
+    <!-- Menu Text -->
+    <string name="menu_cancel_favorite">取消收藏</string>
+    <string name="menu_cancel_all_favorite">取消全部收藏</string>
+    <string name="menu_select_all">全选</string>
+    <string name="menu_delete">删除</string>
+    <string name="menu_delete_all">删除全部</string>
+
+    <!-- Login & SignUp Text -->
+    <string name="face_opne">开始订餐</string>
+    <string name="gender">性别</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="account">账号</string>
+    <string name="verify">验证码</string>
+    <string name="password">密码</string>
+    <string name="login">登  录</string>
+    <string name="signup">注  册</string>
+    <string name="register_account">注册帐号</string>
+    <string name="forget_password">忘记密码？</string>
+    <string name="change_new_password">更改密码</string>
+    <string name="tips_change_password">• 为了确认身份，需要您输入旧密码。</string>
+    <string name="old_password">旧密码</string>
+    <string name="hint_old_password">请输入旧密码 </string>
+    <string name="new_password">新密码</string>
+    <string name="hint_new_password">请输入新密码</string>
+    <string name="hint_new_password_again">请重复一次新密码</string>
+    <string name="reset_password_tips">• 请输入您绑定的邮箱帐号，系统会发一封请求重置密码的邮件到您的邮箱。请注意查收。</string>
+    <string name="get_support_tips">• 如果没有绑定邮箱或忘记了邮箱，可以发送邮件，注明用于登录的手机号至app_support@yeah.net。我们会在一个工作日内回复。谢谢。</string>
+    <string name="email_account">请输入邮箱帐号</string>
+    <string name="email_empty">邮箱帐号不能为空</string>
+    <string name="send_email">系统已发送一封邮件到您的邮箱。请注意查收</string>
+    <string name="send_email_failure">发送邮件失败，请确保您输入的邮箱是正确的。</string>
+    <string name="request_reset_password">请求重置密码</string>
+    <string name="login_success">登录成功</string>
+    <string name="hint_dormitory">例如XX栋[XX单元]</string>
+    <string name="hint_bedroom">例如123</string>
+    <string name="hint_email">请输入邮箱</string>
+    <string name="tips_profile">• 校区、宿舍楼、寝室号这些是必填信息哦</string>
+    <string name="tips_phone">• 用手机号注册，方便商家联系你</string>
+    <string name="tips_get_verify_code">• 为了验证你的身份，我们将会发送短信验证码</string>
+    <string name="tips_send_verify_code">包含验证码的短信已发送至</string>
+    <string name="next_step">下一步</string>
+    <string name="get_registercode_fail">短信验证码发送失败，稍后再试吧</string>
+    <string name="send_registercode_success">短信验证码已发送，请注意查收</string>
+    <string name="login_error">帐号或密码错误</string>
+    <string name="hint_verify">请输入短信验证码</string>
+    <string name="phone_as_account_hint">手机号用于登录</string>
+    <string name="nick_name">昵称</string>
+    <string name="nick_name_hint">请输入昵称</string>
+    <string name="tips_change_nickname">• 昵称不能包含特殊字符，不能超过10个字，且不能重复</string>
+    <string name="tips_change_dormitory">• 宿舍楼不能包含特殊字符，不能超过10个字</string>
+    <string name="tips_change_bedroom">• 寝室号不能超过3位数</string>
+    <string name="tips_change_email">• 请输入有效的邮箱账号</string>
+    <string name="phone_number">手机</string>
+    <string name="school_locale">校&#160;&#160;&#160;&#160;区</string>
+    <string name="dormitory">宿舍楼</string>
+    <string name="bedroom">寝室号</string>
+    <string name="building">栋</string>
+    <string name="email">邮&#160;&#160;&#160;&#160;箱</string>
+    <string name="bind_email">绑定邮箱之后可通过邮箱找回密码</string>
+    <string name="comment">评论</string>
+    <string name="submit_comment">提交评论</string>
+    <string name="comment_box_hint">对外卖店点评一下吧</string>
+    <string name="comment_empty">暂时没有评论哦</string>
+    <string name="publish_comment">发表</string>
+    <string name="ok">确认</string>
+    <string name="cancel">取消</string>
+    <string name="hint_account">请输入手机号码</string>
+    <string name="hint_password">请输入密码</string>
+    <string name="login_to_comment">亲，要登录之后才能发表评论哦。</string>
+    <string name="forget_it">算了吧</string>
+    <string name="to_login">去登录</string>
+    <string name="not_login">亲，您还没有登录哦</string>
+    <string name="no_comment">您暂时没有发表过评论</string>
+    <string name="comment_can_not_empty">评论不能为空</string>
+    <string name="comment_submit_success">评论成功</string>
+    <string name="comment_submit_failure">评论失败，请检查网络连接</string>
+    <string name="change_password">修改密码</string>
+    <string name="log_out">注销</string>
+    <string name="log_out_account">退出当前账号</string>
+    <string name="log_out_success">注销成功</string>
+    <string name="modify">编辑</string>
+    <string name="orders">订单</string>
+    <string name="favorites">收藏</string>
+    <string name="comments">评论</string>
+    <string name="scores">积分</string>
+    <string name="function">功能</string>
+    <string name="bundled">已绑定</string>
+    <string name="unbundled">未绑定</string>
+    <string name="not_available">暂无</string>
+    <string name="tips_for_locale">• 校区不能更改</string>
+    <string name="tips_for_dormitory">• 宿舍是指寝室为多少栋</string>
+    <string name="tips_for_email">• 绑定邮箱可用于找回密码</string>
+    <string name="modify_success">资料修改成功</string>
+    <string name="protocol"><u>我同意用户注册协议</u></string>
+
+    <!-- Commmon Text -->
+    <string name="geowind">南华大学经纬度团队</string>
+    <string name="hongcheng">弘辰</string>
+    <string name="nanxiao">南校</string>
+    <string name="beixiao">北校</string>
+    <string name="empty">该页暂无数据</string>
+    <string name="load_more">加载更多</string>
+    <string name="loading_more">正在加载更多</string>
+    <string name="no_more">加载完毕</string>
+    <string name="favorite_tips">您暂时还没有收藏哦</string>
+    <string name="reminder">温馨提示</string>
+    <string name="save">保存</string>
+    <string name="share">分享</string>
+    <string name="share_food">dd</string>
+    <string name="save_not_avaliable">暂时没有网络，不能保存哦</string>
+    <string name="trying_to_loading">努力加载中</string>
+    <string name="trying_to_handing">正在处理中</string>
+    <string name="trying_to_searching">努力搜索中</string>
+    <string name="shake_fail">网络出了点问题，等下再摇吧</string>
+    <string name="loading_fail">加载失败了，等下再试试吧</string>
+    <string name="come_to_bowl">快到碗里来</string>
+    <string name="shake_tips">不知道吃什么好？\n 摇一摇美食马上来。</string>
+    <string name="tips_for_wifi">切换到WIFI有图模式</string>
+    <string name="tips_for_non_wifi">切换到2G/3G无图模式</string>
+
+    <!-- Search Text -->
+    <string name="search_tips">亲，有什么想吃的？赶紧搜索一下吧！</string>
+    <string name="order_by_price">按价格排序</string>
+    <string name="order_by_hot">按人气排序</string>
+    <string name="ascending">升序</string>
+    <string name="descending">升序</string>
+    <string name="search_result1">共查找到</string>
+    <string name="search_result2">条相关的数据</string>
+    <string name="search_no_result">很抱歉，没有找到相关的数据o(╯□╰)o</string>
+    <string name="search_category">分类</string>
+
+    <!-- FeedBack Text -->
+    <string name="feedback_tips">感谢您使用外卖小助手，您在使用过程中如有任何问题、意见或建议都可以给我们反馈。您们的支持是我们不懈的动力。</string>
+    <string name="feedback_hint">反馈意见不能少于15字</string>
+    <string name="feedBack_phone_hint">请输入手机号码，方便我们跟您联系</string>
+    <string name="feedback_submit">提交</string>
+    <string name="feedback_content_no_empty">请输入反馈意见</string>
+    <string name="feedback_content_too_short">反馈意见不能少于15字</string>
+    <string name="feedback_phone_no_empty">请输入手机号</string>
+    <string name="feedback_phone_too_short">手机号码不足11位</string>
+    <string name="feedback_submit_success">提交成功，非常感谢你的反馈。</string>
+
+    <!-- About Text -->
+    <string name="about">外卖小助手 &#8212;&#8212; 精彩你的外卖生活</string>
+    <string name="about_app_version">当前版本：</string>
+    <string name="app_face">App欢迎界面</string>
+    <string name="about_app">关于外卖小助手</string>
+    <string name="about_team">关于经纬度团队</string>
+    <string name="about_app_copyright">©2013 南华大学经纬度团队    版权所有</string>
+
+    <!-- Toast Text -->
+    <string name="no_network">╮(╯▽╰)╭亲，网络不给力哦</string>
+    <string name="favorite_success">收藏成功</string>
+    <string name="cancel_favorite_success">取消收藏成功</string>
+    <string name="no_network_canot_favortie">网络不给力，等下再收藏吧</string>
+    <string name="press_back_one_more_time">再按一次返回键退出应用程序</string>
+
+    <!-- Settings Text -->
+    <string name="clear_cache">清除缓存</string>
+    <string name="clear_cache_success">缓存清除成功</string>
+    <string name="clear_cache_summary">删除手机上的文件和图片等</string>
+    <string name="search_order">搜索时默认排序方式</string>
+    <string name="auto_check_update">自动检测更新</string>
+    <string name="check_update">检查更新</string>
+    <string name="checked_update">检测到新版本</string>
+    <string name="has_new_version">亲，新版本发布了哦。是否立即更新？</string>
+    <string name="not_has_new_version">亲，暂未发现有新版本哦！</string>
+    <string name="update_right_now">立即更新</string>
+    <string name="download_from_market">应用市场下载</string>
+    <string name="download_from_browser">本地下载</string>
+    <string name="temporarily_not_update">暂不更新</string>
+
+    <!-- Order Text -->
+
+    <string name="login_to_order">亲，要登录之后才能下单哦</string>
+    <string name="commit_order">确认提交</string>
+    <string name="order_empty">您暂时还没有订单哦</string>
+    <string name="delete_order">删除订单</string>
+    <string name="add_to_order">加入订单</string>
+    <string name="undo_order">撤销订单</string>
+    <string name="prompt_order">催一下单</string>
+    <string name="order">下单</string>
+    <string name="ordered">已下单</string>
+    <string name="order_confirm_received">确认收到</string>
+    <string name="order_cancel">撤销订单</string>
+    <string name="order_to_comment">点评一下</string>
+    <string name="food_order_tips">您暂时没有点餐哦</string>
+    <string name="business_stop">商家暂停营业了,等下再来吧</string>
+    <string name="business_too_early">太早了吧，商家还没开始营业呢</string>
+    <string name="business_too_later">很晚了额，早点洗洗睡吧</string>
+    <string name="add_to_order_success">成功加入订单</string>
+    <string name="delete_from_order_success">成功从订单中删除</string>
+    <string name="delete_order_success">订单删除成功</string>
+    <string name="check_out">小二，结账</string>
+    <string name="total_price">总金额：</string>
+    <string name="order_adress">地&#160;&#160;&#160;&#160;址：</string>
+    <string name="remarks">备&#160;&#160;&#160;&#160;注：</string>
+    <string name="others_more_rice">多加点饭</string>
+    <string name="others_less_pepper">少放点辣椒</string>
+    <string name="others_no_change">没零钱</string>
+    <string name="order_successful">下单成功，商家马上就会送过来哦。</string>
+    <string name="order_list_tips_for_amount">• 这是您最近一个星期的订单</string>
+    <string name="order_list_tips_for_longtime">• 如果5分钟之后还未收到商家确认订单，建议打电话给商家咨询一下,或者撤销订单</string>
+    <string name="hint_for_remarks">在这里填额外的需求，比如多加点饭，少放点辣椒。</string>
+    <string name="tips_for_delete">• 长按某一项可以删除哦</string>
+    <string name="tips_for_up_panel">• 这个页面是可以上下拖动的哦</string>
+
+</resources>

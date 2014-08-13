@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:layout="@layout/preference_category"
+        android:title="@string/action_settings" >
+        <Preference
+            android:key="cache"
+            android:layout="@layout/preference"
+            android:summary="@string/clear_cache_summary"
+            android:title="@string/clear_cache" />
+
+        <ListPreference
+            android:defaultValue="order_by_price"
+            android:entries="@array/order_by_array"
+            android:entryValues="@array/order_by_value_array"
+            android:key="search_order"
+            android:layout="@layout/preference"
+            android:summary="@string/order_by_price"
+            android:title="@string/search_order" />
+    </PreferenceCategory>
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="auto_check_update"
+        android:layout="@layout/preference"
+        android:title="@string/auto_check_update" />
+
+    <Preference
+        android:key="check_update"
+        android:layout="@layout/preference"
+        android:summary="@string/check_update"
+        android:title="@string/check_update" />
+
+</PreferenceScreen>

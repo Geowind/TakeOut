@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp" >
+
+    <!-- 为了优化ListView ScrollBar 显示效果，跟布局设为FrameLayout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/selector_order_item_bg"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:id="@+id/feedback_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="小豆豆"
+                android:textColor="@color/main_color" />
+
+            <ImageView
+                android:id="@+id/feedback_gender"
+                android:layout_width="11dp"
+                android:layout_height="11dp"
+                android:layout_marginLeft="3dp"
+                android:layout_toRightOf="@id/feedback_author"
+                android:src="@drawable/ic_boy" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/feedback_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/app_declare"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/feedback_reply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/main_grey"
+            android:padding="5dp"
+            android:text="非常感谢您对外卖小助手和经纬度团队的支持。" />
+    </LinearLayout>
+
+</FrameLayout>

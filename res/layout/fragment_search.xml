@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whilte_main_color"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/search_tips_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <cn.geowind.takeout.ui.widget.SlidingPaneListView
+            android:id="@+id/category_list"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:choiceMode="singleChoice"
+            android:listSelector="#00000000"
+            android:scrollbars="none" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#ECECEC" />
+
+        <ListView
+            android:id="@+id/category_detail_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:listSelector="#00000000"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:scrollbars="none" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:divider="@null"
+        android:dividerHeight="10dp"
+        android:listSelector="@color/transparent"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" />
+
+</LinearLayout>

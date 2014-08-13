@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ExpandableListView
+        android:id="@id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:groupIndicator="@drawable/selector_explistview_indicator"
+        android:listSelector="@drawable/list_item_bg"
+        android:scrollbarStyle="outsideOverlay" />
+
+    <TextView
+        android:id="@id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:drawablePadding="8dp"
+        android:drawableTop="@drawable/ricebowl"
+        android:text="@string/search_no_result"
+        android:textSize="16sp" />
+
+</RelativeLayout>
