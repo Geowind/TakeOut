@@ -18,7 +18,6 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import cn.geowind.takeout.R;
 import cn.geowind.takeout.app.Constants;
 import cn.geowind.takeout.entity.User;
@@ -32,7 +31,6 @@ import cn.geowind.takeout.ui.FavoriteActivity;
 import cn.geowind.takeout.ui.LoginActivity;
 import cn.geowind.takeout.ui.MainActivity;
 import cn.geowind.takeout.ui.OrderActivity;
-import cn.geowind.takeout.ui.ScoreActivity;
 import cn.geowind.takeout.ui.SelectLocaleActivity;
 
 import com.avos.avoscloud.AVUser;
@@ -96,7 +94,6 @@ public class ProfileFragment extends BaseFragment implements OnClickListener {
 
 		view.findViewById(R.id.frame).setOnClickListener(this);
 		view.findViewById(R.id.profile_orders).setOnClickListener(this);
-		view.findViewById(R.id.profile_scores).setOnClickListener(this);
 		view.findViewById(R.id.profile_comments).setOnClickListener(this);
 		view.findViewById(R.id.profile_favorites).setOnClickListener(this);
 		view.findViewById(R.id.profile_locale).setOnClickListener(this);
@@ -230,9 +227,6 @@ public class ProfileFragment extends BaseFragment implements OnClickListener {
 						.apply();
 				startActivity(new Intent(mActivity, OrderActivity.class));
 			}
-			break;
-		case R.id.profile_scores:
-			startActivity(new Intent(mActivity, ScoreActivity.class));
 			break;
 		case R.id.profile_favorites:
 			startActivity(new Intent(mActivity, FavoriteActivity.class));
