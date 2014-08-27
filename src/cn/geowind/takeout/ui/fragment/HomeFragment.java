@@ -24,7 +24,6 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 import cn.geowind.takeout.R;
 import cn.geowind.takeout.app.App;
 import cn.geowind.takeout.entity.Pager;
@@ -39,11 +38,8 @@ import cn.geowind.takeout.util.ToastUtil;
 import cn.geowind.takeout.util.Utils;
 
 import com.avos.avoscloud.AVException;
-import com.avos.avoscloud.AVInstallation;
 import com.avos.avoscloud.AVObject;
-import com.avos.avoscloud.AVPush;
 import com.avos.avoscloud.AVQuery;
-import com.avos.avoscloud.SendCallback;
 import com.avos.avoscloud.AVQuery.CachePolicy;
 import com.avos.avoscloud.CountCallback;
 import com.avos.avoscloud.LogUtil.log;
@@ -216,21 +212,6 @@ public class HomeFragment extends BaseFragment implements OnPageChangeListener,
 			startActivity(intent);
 			break;
 		case R.id.action_cooperation:
-           //3bff5c39-c114-418a-8a9e-3acf1decbf96
-			AVQuery<AVInstallation> query = AVInstallation.getQuery();
-			query.whereEqualTo("installationId", "3bff5c39-c114-418a-8a9e-3acf1decbf96");
-			AVPush.sendMessageInBackground("來自外賣小助手用戶版的推送。", query, new SendCallback() {
-				
-				@Override
-				public void done(AVException e) {
-					if(e == null){
-						Toast.makeText(mActivity, "推送成功", Toast.LENGTH_LONG).show();
-					}else{
-						Toast.makeText(mActivity, "推送失败 ", Toast.LENGTH_LONG).show();
-						e.printStackTrace();
-					}
-				}
-			});
 			intent = new Intent(mActivity, WebActivity.class);
 			intent.putExtra(Pager.TITLE,
 					getResources().getString(R.string.action_cooperation));

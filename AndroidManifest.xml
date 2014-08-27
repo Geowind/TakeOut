@@ -43,7 +43,7 @@
     <uses-permission android:name="android.permission.WRITE_SETTINGS" />
 
     <application
-        android:name=".app.App"
+        android:name="cn.geowind.takeout.app.App"
         android:allowBackup="true"
         android:configChanges="keyboardHidden|orientation"
         android:icon="@drawable/logo"
