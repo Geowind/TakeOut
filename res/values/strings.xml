@@ -190,7 +190,7 @@
     <string name="app_face">App欢迎界面</string>
     <string name="about_app">关于外卖小助手</string>
     <string name="about_team">关于经纬度团队</string>
-    <string name="about_app_copyright">©2013 南华大学经纬度团队    版权所有</string>
+    <string name="about_app_copyright">©2013&#8212;2014 南华大学经纬度团队    版权所有</string>
 
     <!-- Toast Text -->
     <string name="no_network">╮(╯▽╰)╭亲，网络不给力哦</string>

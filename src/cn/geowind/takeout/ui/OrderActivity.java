@@ -170,7 +170,6 @@ public class OrderActivity extends BaseActivity implements OnItemClickListener {
 	public void onItemClick(AdapterView<?> parent, View view, int position,
 			long id) {
 		int p = position - 1;
-		System.out.println("order item position:" + position);
 		Intent intent = new Intent(this, RestaurantActivity.class);
 		intent.putExtra(Restaurant.OBJECT_ID,
 				mList.get(p).getString(Order.RESTAURANT_ID));

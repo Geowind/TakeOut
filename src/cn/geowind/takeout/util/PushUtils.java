@@ -27,17 +27,13 @@ public class PushUtils {
 	 * 推送类别枚举
 	 */
 	public static enum PushType {
-		/**
-		 * 推送订单
-		 */
+		/** 推送订单*/
 		ORDER,
-		/**
-		 * 撤销订单
-		 */
+		
+		/** 撤销订单*/
 		UNDO,
-		/**
-		 * 催订单
-		 */
+		
+		/** 催订单*/
 		URGE
 	}
 

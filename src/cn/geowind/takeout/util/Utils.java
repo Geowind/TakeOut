@@ -77,9 +77,7 @@ public class Utils {
 		ConnectivityManager connMgr = (ConnectivityManager) context
 				.getSystemService(Context.CONNECTIVITY_SERVICE);
 		NetworkInfo info = connMgr.getActiveNetworkInfo();
-		/**
-		 * 这里一定要判断一下info 是否等于null
-		 */
+		/* 这里一定要判断一下info 是否等于null*/
 		return (info != null && ConnectivityManager.TYPE_WIFI == info.getType());
 	}
 
