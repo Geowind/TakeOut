@@ -51,7 +51,7 @@ public class AboutActivity extends BaseActivity implements OnClickListener,
 		appVersionName.setText(res.getString(R.string.about_app_version)
 				+ appVersionStr);
 		appCopyright.setText(Utils.hightLight(
-				res.getString(R.string.about_app_copyright), "#DD4814", 5, 15));
+				res.getString(R.string.about_app_copyright), "#DD4814", 10, 20));
 
 		appVersionName.setBackgroundResource(R.drawable.background_top);
 		appFace.setBackgroundResource(R.drawable.background_white_center);
