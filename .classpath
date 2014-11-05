@@ -5,8 +5,6 @@
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
 	<classpathentry exported="true" kind="lib" path="libs/android-async-http-1.4.4-fix.jar"/>
-	<classpathentry exported="true" kind="lib" path="libs/android-support-v4.jar"/>
-	<classpathentry exported="true" kind="lib" path="libs/android-support-v7-appcompat.jar"/>
 	<classpathentry exported="true" kind="lib" path="libs/AndroidSDKComponent.jar"/>
 	<classpathentry exported="true" kind="lib" path="libs/avoscloud-v2.5.9.jar"/>
 	<classpathentry exported="true" kind="lib" path="libs/avospush-v2.5.9.jar"/>
@@ -14,6 +12,8 @@
 	<classpathentry exported="true" kind="lib" path="libs/fastjson.jar"/>
 	<classpathentry exported="true" kind="lib" path="libs/jpush-sdk-release1.6.1.jar"/>
 	<classpathentry exported="true" kind="lib" path="libs/volley.jar"/>
+	<classpathentry kind="lib" path="libs/android-support-v4.jar"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="lib" path="/android-support-v7-appcompat/libs/android-support-v7-appcompat.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
