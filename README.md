@@ -43,6 +43,11 @@
 
 
 
+更多详细文档可以参考 **[documentation.doc](https://github.com/Folyd/TakeOut/blob/master/documentation.doc)**
+
+
+
+
 
 ```
 Licensed under the Apache License, Version 2.0 (the "License");
