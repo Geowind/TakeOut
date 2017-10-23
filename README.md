@@ -1,18 +1,18 @@
-#TakeOut             
+# TakeOut             
 
 ![](https://github.com/Folyd/TakeOut/blob/master/res/drawable-xxhdpi/logo.png)
 
 
-##简介
+## 简介
   外卖小助手是南华大学经纬度团队从2013年开始研发的一款针对高校的外卖叫餐App。
   
   2014年3月25号在南华大学正式上线推广试运营，试运营达3个月之久，后期因美团外卖、饿了么这些专业的外卖平台进入校园，导致竞争过于激烈，学生团队力不从心，2014年暑假之后，外卖小助手停止运营。
   
   
   
-##项目
+## 项目
 
-####第三方依赖库
+#### 第三方依赖库
 外卖小助手依赖如下几个第三方库：
 
 - **[Android-ViewPagerIndicator](https://github.com/JakeWharton/Android-ViewPagerIndicator)**
@@ -29,7 +29,7 @@
 
 
 
-####依赖jar包
+#### 依赖jar包
 - **AVOS Cloud 相关** (外卖小助手后端云服务sdk)
    - android-async-http-1.4.4-fix.jar
    - AndroidSDKComponent.jar
